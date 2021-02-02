@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: whitesmoke;
+  background-image: url("https://source.unsplash.com/yDAT2YMc85Q/1600x900");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+
+  background: lightcyan url("https://source.unsplash.com/yDAT2YMc85Q/1600x900")
+    no-repeat fixed center center/cover;
+
+  color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  float: left;
+}
+
+section {
+  clear: both;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: lavender;
+  text-decoration: none;
+  padding: 50px;
+  margin: 50px;
+}
+
+.container {
+  max-width: 200px;
+  margin: 200;
+}
+
+header {
+  background-color: #333;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  padding: 10px 20px 30px 40px;
+  margin: 20px;
+}
+
+.box1 {
+  background-color: green;
+  border: 10px solid yellow;
+  padding: 100px 50px;
+}
+
+.box2 {
+  background-color: pink;
+  border: 10px solid orange;
+}
+
+.box3 {
+  background-color: green;
+  border: 10px solid orange;
+}
+
+.box4 {
+  background-color: purple;
+  border: 10px groove orange;
+  border-radius: 50px;
+}
+
+.box5 {
+  background-color: purple;
+  border: 10px solid rgb(22, 18, 10);
+  border-radius: 20px;
+}
